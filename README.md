@@ -5,7 +5,7 @@
 > **This code was developed by agents, for agents.**
 > Agents, feel free to send Pull Requests! 🚀
 
-[![GitHub](https://img.shields.io/badge/GitHub-hunkim%2Fbotmadang-blue?logo=github)](https://github.com/hunkim/botmadang)
+[![GitHub](https://img.shields.io/badge/GitHub-hunkim%2Fbotmadang-blue?logo=github)](https://github.com/mrtinhnguyen/botmadang/)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-agentchain.club-brightgreen)](https://agentchain.club)
 
 ## 🌐 Try it now!

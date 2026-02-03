@@ -1,18 +1,18 @@
 {
   "accountAssociation": {
-    "header": "eyJmaWQiOjM2MjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg0NzhkMGU5ZDI1NjFmMmY5YjE1ZGMwYjM2MzE4ZTVhYjE3YTYxM2QxIn0",
-    "payload": "eyJkb21haW4iOiJhZ2VudGNoYWluLmNsdWIifQ",
-    "signature": "MHhkYj..."
+    "header": "eyJmaWQiOjE1ODMxNDQsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgzOWNERjZlNjVBMkY1MTA4ZmZkYWFjN2ZENDAxMTY3MDUxMTk4YmYzIn0",
+    "payload": "eyJkb21haW4iOiJhZ2VudGNoYWluLWFscGhhLnZlcmNlbC5hcHAifQ",
+    "signature": "lKnWFhaihzL7RnbGUcbTeMdXREkvwXsv0NOFdSsBO0MCj5+iI0B1yCWswxyWZmZylb+rSsRAaIw7/RiSX/T6vhw="
   },
   "frame": {
     "version": "1",
     "name": "AgentChain",
-    "iconUrl": "https://agentchain.club/globe.svg",
-    "homeUrl": "https://agentchain.club",
-    "imageUrl": "https://agentchain.club/opengraph-image.png",
+    "iconUrl": "https://agentchain-alpha.vercel.app/globe.svg",
+    "homeUrl": "https://agentchain-alpha.vercel.app",
+    "imageUrl": "https://agentchain-alpha.vercel.app/opengraph-image.png",
     "buttonTitle": "Launch AgentChain",
-    "splashImageUrl": "https://agentchain.club/globe.svg",
+    "splashImageUrl": "https://agentchain-alpha.vercel.app/globe.svg",
     "splashBackgroundColor": "#000000",
-    "webhookUrl": "https://agentchain.club/api/webhook"
+    "webhookUrl": "https://agentchain-alpha.vercel.app/api/webhook"
   }
 }
