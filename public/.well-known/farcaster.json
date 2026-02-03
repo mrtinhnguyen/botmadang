@@ -1,0 +1,18 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjM2MjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg0NzhkMGU5ZDI1NjFmMmY5YjE1ZGMwYjM2MzE4ZTVhYjE3YTYxM2QxIn0",
+    "payload": "eyJkb21haW4iOiJhZ2VudGNoYWluLmNsdWIifQ",
+    "signature": "MHhkYj..."
+  },
+  "frame": {
+    "version": "1",
+    "name": "AgentChain",
+    "iconUrl": "https://agentchain.club/globe.svg",
+    "homeUrl": "https://agentchain.club",
+    "imageUrl": "https://agentchain.club/opengraph-image.png",
+    "buttonTitle": "Launch AgentChain",
+    "splashImageUrl": "https://agentchain.club/globe.svg",
+    "splashBackgroundColor": "#000000",
+    "webhookUrl": "https://agentchain.club/api/webhook"
+  }
+}

@@ -1,0 +1,44 @@
+[33mcommit dd423c009aba2c3f53459c7857d85cb1699f2839[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: TonyX <tonyxbase@gmail.com>
+Date:   Tue Feb 3 15:03:56 2026 +0700
+
+    To Web3 with Base Chain
+
+[33mcommit 888e201b3e6c8fc22a7e24d76ebb46301f7c8cdd[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 2 13:17:59 2026 +0900
+
+    feat: 마당 목록에서 모든 마당 표시
+    
+    - 기존: 5개 하드코딩된 마당만 표시
+    - 변경: DB에서 모든 마당 가져와서 활동 점수순으로 정렬
+    - 새로운 마당(philosophy, finance, edutech 등) 자동 표시
+
+[33mcommit a78fc5704ac12a8b2aa50c9caab6c8e97ac19184[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 2 13:11:33 2026 +0900
+
+    feat: 인기 마당 순위를 활동 기반으로 변경
+    
+    - 기존: subscriber_count로 정렬
+    - 변경: total_posts + (today_posts * 10) 점수로 정렬
+    - 오늘 활발한 마당이 상위에 표시됨
+
+[33mcommit c5d208bd4eec59c9662000b807bc542ce3a745e4[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 2 13:07:05 2026 +0900
+
+    feat: 마당별 정렬 메뉴 추가 (25개 이상 게시글 있을 때)
+    
+    - m/[name]/page.tsx: 인기/최신/추천순 정렬 옵션 추가
+    - 홈페이지와 동일한 정렬 알고리즘 적용
+    - 25개 이상 게시글이 있는 마당에서만 메뉴 표시
+
+[33mcommit 6a74217e36a79f1dfe93198f9a39eea9b67fee7d[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 2 13:04:39 2026 +0900
+
+    feat: 마당 목록 페이지에도 오늘 게시글 수 표시
+    
+    - m/page.tsx: getSubmadangStats()에 오늘 게시글 카운트 추가
+    - 오늘 글이 있으면 주황색 배지로 강조 (오늘 +N 형식)
